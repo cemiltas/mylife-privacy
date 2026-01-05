@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyLife - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+        }
+        h1 { 
+            color: #007AFF; 
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        h2 { 
+            color: #555; 
+            margin-top: 40px; 
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 5px;
+        }
+        h3 { 
+            color: #666; 
+            margin-top: 25px;
+        }
+        .last-updated { 
+            color: #888; 
+            font-style: italic; 
+            margin-bottom: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #888;
+            font-size: 0.9em;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Courier New', monospace;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1c1c1e;
+                color: #f2f2f7;
+            }
+            h1 { color: #0a84ff; }
+            h2 { 
+                color: #e5e5ea;
+                border-bottom-color: #0a84ff;
+            }
+            h3 { color: #d1d1d6; }
+            code {
+                background: #2c2c2e;
+            }
+            .footer {
+                border-top-color: #38383a;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for MyLife</h1>
+    <p class="last-updated"><strong>Last Updated:</strong> January 5, 2026</p>
+
+    <div class="section">
+        <h2>Introduction</h2>
+        <p>MyLife ("we," "our," or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle your information.</p>
+    </div>
+
+    <div class="section">
+        <h2>Data Collection and Storage</h2>
+        
+        <h3>What We Collect</h3>
+        <ul>
+            <li><strong>Local Data Only:</strong> All your data (to-dos, module information, vault documents, photos) is stored locally on your device using SwiftData and encrypted storage.</li>
+            <li><strong>No Cloud Sync:</strong> We do not collect, transmit, or store any of your personal information on our servers.</li>
+            <li><strong>No Analytics:</strong> We do not use third-party analytics services.</li>
+            <li><strong>No Advertising:</strong> We do not display ads or share data with advertisers.</li>
+        </ul>
+
+        <h3>Data You Provide</h3>
+        <ul>
+            <li>Task and reminder information</li>
+            <li>Module-specific information (budget items, health records, pet information, etc.)</li>
+            <li>Vault documents and photos (encrypted locally)</li>
+            <li>PIN/Biometric authentication data (stored securely in iOS Keychain)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>How We Use Your Data</h2>
+        <p>All data remains on your device and is used solely to:</p>
+        <ul>
+            <li>Display your to-dos and reminders</li>
+            <li>Send local notifications for upcoming items</li>
+            <li>Provide encrypted storage for sensitive documents</li>
+            <li>Enable App Shortcuts and Widgets</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Data Security</h2>
+        <ul>
+            <li><strong>Vault Encryption:</strong> Sensitive documents in the Vault are encrypted using CryptoKit with AES-GCM</li>
+            <li><strong>Biometric Security:</strong> We use Face ID/Touch ID through iOS Keychain for vault access</li>
+            <li><strong>No Third-Party Access:</strong> Your data never leaves your device</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Permissions</h2>
+
+        <h3>Camera</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Used for scanning documents into your Vault</li>
+            <li><strong>When:</strong> Only when you explicitly use the "Scan Document" feature</li>
+            <li><strong>Key:</strong> <code>NSCameraUsageDescription</code></li>
+        </ul>
+
+        <h3>Photo Library</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Used to attach photos to vault documents</li>
+            <li><strong>When:</strong> Only when you explicitly select "Add from Photos"</li>
+            <li><strong>Key:</strong> <code>NSPhotoLibraryUsageDescription</code></li>
+        </ul>
+
+        <h3>Notifications</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Send reminders for upcoming to-dos</li>
+            <li><strong>When:</strong> Only after you grant permission and enable reminders</li>
+            <li><strong>Control:</strong> Can be disabled in iOS Settings</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Your Rights</h2>
+        <p>Since all data is stored locally on your device:</p>
+        <ul>
+            <li><strong>Delete Data:</strong> Uninstalling the app removes all data</li>
+            <li><strong>Export:</strong> Use iOS Files app to access exported documents (if applicable)</li>
+            <li><strong>Control:</strong> You have full control over all data through the app settings</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Children's Privacy</h2>
+        <p>MyLife does not knowingly collect information from children under 13. The app is designed for general audiences and operates entirely on-device.</p>
+    </div>
+
+    <div class="section">
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be reflected in the "Last Updated" date above. Continued use of the app constitutes acceptance of any changes.</p>
+    </div>
+
+    <div class="section">
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:support@mylifeapp.com">support@mylifeapp.com</a></p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 MyLife. All rights reserved.</p>
+        <p>This privacy policy is effective as of January 5, 2026.</p>
+    </div>
+</body>
+</html>
